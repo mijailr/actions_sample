@@ -29,10 +29,7 @@ defmodule ActionsSample.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {
-        :excoveralls,
-        git: "https://github.com/mijailr/excoveralls.git",
-        branch: "beta"}
-     ]
+      {:excoveralls, "~> 0.12", only: [:test]}
+    ]
   end
 end
