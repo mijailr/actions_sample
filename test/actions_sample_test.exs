@@ -9,4 +9,8 @@ defmodule ActionsTest do
   test "multiply two values" do
     assert ActionsSample.multiply(3, 5) == 15
   end
+
+  test "subtract value" do
+    assert ActionsSample.subtract(3, 5) == -2
+  end
 end
