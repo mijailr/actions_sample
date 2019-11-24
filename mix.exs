@@ -32,7 +32,7 @@ defmodule ActionsSample.Mixfile do
       {
         :excoveralls,
         git: "https://github.com/mijailr/excoveralls.git",
-        branch: "beta"}
+        branch: "feature/github-actions"}
      ]
   end
 end
