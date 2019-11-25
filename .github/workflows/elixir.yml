@@ -46,4 +46,5 @@ jobs:
 
       - name: Run Tests
         run: |
+          mix credo
           mix coveralls.github
