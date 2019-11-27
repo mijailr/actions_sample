@@ -1,8 +1,4 @@
 defmodule ActionsSample do
-  @moduledoc """
-  This module operate some math
-  """
-
   @spec add(number, number) :: number
   def add(x, y) do
     x + y

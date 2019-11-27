@@ -3,7 +3,7 @@ defmodule ActionsSample.Mixfile do
 
   def project do
     [
-      app: :semaphore_sample,
+      app: :actions_sample,
       version: "0.0.1",
       elixir: "~> 1.2",
       build_embedded: Mix.env() == :prod,
