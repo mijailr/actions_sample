@@ -1,4 +1,5 @@
 defmodule ActionsSample do
+  alias GenEvent.Stream
   @spec add(number, number) :: number
   def add(x, y) do
     x + y
@@ -6,7 +7,6 @@ defmodule ActionsSample do
 
   @spec multiply(number, number) :: number
   def multiply(x, y) do
-    add(x)
     x * y
   end
 
