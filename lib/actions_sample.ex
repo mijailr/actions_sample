@@ -4,10 +4,9 @@ defmodule ActionsSample do
     x + y
   end
 
-  ,
-
   @spec multiply(number, number) :: number
   def multiply(x, y) do
+    add(x)
     x * y
   end
 
